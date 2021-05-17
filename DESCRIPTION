@@ -1,0 +1,19 @@
+Package: taxonpca
+Type: Package
+Title: Taxonomic Principle Component Analysis
+Version: 0.1.0
+Authors@R: c(person(given = "Lydia",family = "Myers", role = c("aut", "cre"),email = "lydia.myers@utexas.edu"),person(given = "Gabrielle",family = "Bueno",role = c("aut")))
+Description: This package allows easy analysis of biological data taxonomically using PCA.
+Depends: R (>= 3.5.2)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2,
+    dplyr,
+    factoextra
+RoxygenNote: 7.1.1
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
