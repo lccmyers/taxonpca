@@ -134,9 +134,9 @@ ScoresByRank <- names(TestScoresRanked)
 pcaStudents$rotation[ScoresByRank,1] #Puts the negatives and positives back in
 ```
 
-# Phylogenetic PCA 
+# Taxonomic PCA 
 
-Let's take a look at the PCA functions we created in our package `phylopca` - this package allows analysis at different taxonomic levels using PCA. First, we need to load in the custom dataset included with the package, which includes 13 numerical variables with data on 213 primates.
+Let's take a look at the PCA functions we created in our package `taxonpca` - this package allows analysis at different taxonomic levels using PCA. First, we need to load in the custom dataset included with the package, which includes 13 numerical variables with data on 213 primates.
 
 ```{r data}
 d <- read_csv("https://raw.githubusercontent.com/lccmyers/group-project-package/master/data.csv", col_names = TRUE)
